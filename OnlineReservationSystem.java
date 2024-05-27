@@ -17,6 +17,8 @@ public class OnlineReservationSystem extends JFrame {
     private JTextField pnrField;
     private JButton cancelButton;
 
+
+
     public OnlineReservationSystem() {
         setTitle("Online Reservation System");
         setSize(400, 300);
@@ -76,7 +78,7 @@ public class OnlineReservationSystem extends JFrame {
         cancellationPanel.add(cancellationLabel);
         cancellationPanel.add(new JLabel("PNR Number:"));
         cancellationPanel.add(pnrField);
-        cancellationPanel.add(cancelButton);
+        cancellationPanel.add(cancelButton); //cancel btn
 
         // Add action listeners
         loginButton.addActionListener(new ActionListener() {
