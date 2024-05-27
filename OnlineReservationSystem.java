@@ -74,6 +74,7 @@ public class OnlineReservationSystem extends JFrame {
         cancellationLabel = new JLabel("Cancellation Form");
         pnrField = new JTextField(15);
         cancelButton = new JButton("Cancel");
+        // jhgjh
 
         cancellationPanel.add(cancellationLabel);
         cancellationPanel.add(new JLabel("PNR Number:"));
